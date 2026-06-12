@@ -18,37 +18,21 @@ pip install paho-mqtt
 smart-room-monitoring-mqtt-sangpimandu/
 
 │
-
 ├── README.md
-
 ├── skenario1_basic/
-
 │   ├── publisher_basic.py
-
 │   └── subscriber_basic.py
-
 ├── skenario2_qos/
-
 │   ├── publisher_qos.py
-
 │   └── subscriber_qos.py
-
 ├── skenario3_multitopic/
-
 │   ├── publisher_multitopic.py
-
 │   └── subscriber_multitopic.py
-
-├── skenario4_wildcard_plus/
-
+├── skenario4_wildcard+/
 │   ├── publisher_plus.py
-
 │   └── subscriberplus.py
-
-└── skenario5_wildcard_hash/
-
+└── skenario5_wildcard#/
 ├── publisherhash.py
-
 └── subscriberhash.py
 
 ---
@@ -96,7 +80,7 @@ python publisher_multitopic.py
 ## Skenario 4 — Wildcard `+`
 
 ```bash
-cd skenario4_wildcard_plus
+cd skenario4_wildcard+
 python subscriberplus.py
 python publisher_plus.py
 ```
@@ -106,7 +90,7 @@ python publisher_plus.py
 ## Skenario 5 — Wildcard `#`
 
 ```bash
-cd skenario5_wildcard_hash
+cd skenario5_wildcard#
 python subscriberhash.py
 python publisherhash.py
 ```

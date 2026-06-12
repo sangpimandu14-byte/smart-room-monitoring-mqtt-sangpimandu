@@ -12,12 +12,9 @@ Install library:
 pip install paho-mqtt
 ```
 
----
-
+```
 ## Struktur Folder
 smart-room-monitoring-mqtt-sangpimandu/
-
-│
 ├── README.md
 ├── skenario1_basic/
 │   ├── publisher_basic.py
@@ -28,14 +25,13 @@ smart-room-monitoring-mqtt-sangpimandu/
 ├── skenario3_multitopic/
 │   ├── publisher_multitopic.py
 │   └── subscriber_multitopic.py
-├── skenario4_wildcard_plus/
+├── skenario4_wildcard+/
 │   ├── publisher_plus.py
 │   └── subscriberplus.py
-└── skenario5_wildcard_hash/
-├── publisherhash.py
-└── subscriberhash.py
-
----
+└── skenario5_wildcard#/
+    ├── publisherhash.py
+    └── subscriberhash.py
+```
 
 ## Menjalankan Mosquitto Broker
 

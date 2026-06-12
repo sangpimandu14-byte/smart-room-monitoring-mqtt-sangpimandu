@@ -11,9 +11,9 @@ Install library:
 ```bash
 pip install paho-mqtt
 ```
+## Struktur Folder
 
 ```
-## Struktur Folder
 smart-room-monitoring-mqtt-sangpimandu/
 ├── README.md
 ├── skenario1_basic/

@@ -7,10 +7,35 @@ Pastikan sudah terinstal:
 - Mosquitto Broker
 - Library `paho-mqtt`
 
-Install library:
+### 1. Install Python
+Download dan install Python 3.x dari situs resmi:
+https://www.python.org/downloads/
+
+Verifikasi instalasi:
+```bash
+python --version
+```
+
+### 2. Install Mosquitto Broker
+Download dan install Mosquitto dari situs resmi:
+https://mosquitto.org/download/
+
+Verifikasi instalasi:
+```bash
+mosquitto -v
+```
+
+### 3. Install Library paho-mqtt
 ```bash
 pip install paho-mqtt
 ```
+
+Verifikasi instalasi:
+```bash
+pip show paho-mqtt
+```
+
+---
 ## Struktur Folder
 
 ```

@@ -28,10 +28,10 @@ smart-room-monitoring-mqtt-sangpimandu/
 ├── skenario3_multitopic/
 │   ├── publisher_multitopic.py
 │   └── subscriber_multitopic.py
-├── skenario4_wildcard+/
+├── skenario4_wildcard_plus/
 │   ├── publisher_plus.py
 │   └── subscriberplus.py
-└── skenario5_wildcard#/
+└── skenario5_wildcard_hash/
 ├── publisherhash.py
 └── subscriberhash.py
 
